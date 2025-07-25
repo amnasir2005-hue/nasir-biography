@@ -1,0 +1,57 @@
+/* style.css */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background: #f9f9f9;
+  color: #333;
+}
+
+header {
+  background: #004d7a;
+  color: white;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+header img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 4px solid white;
+  object-fit: cover;
+}
+
+section {
+  padding: 40px 20px;
+  max-width: 900px;
+  margin: auto;
+}
+
+h2 {
+  color: #004d7a;
+  margin-bottom: 20px;
+}
+
+.skills, .projects, .photos, .blog, .contact {
+  margin-top: 40px;
+}
+
+.photos img {
+  width: 200px;
+  margin: 10px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+footer {
+  background: #004d7a;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+}
